@@ -1,0 +1,55 @@
+.Email{
+    background-color:  #0898e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+.send{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.email_box{
+background-color:white;
+width: 50%;
+border-radius: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 30%;
+}
+
+.text p{
+    margin-top: 10px;
+}
+
+.contact button{
+    background-color:  #0898e7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding: 5px 30px;
+}
+
+@media  screen and (max-width:576px) {
+    .send{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .email_box{
+        background-color:white;
+        width: 100%;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30%;
+        }
+}

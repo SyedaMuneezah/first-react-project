@@ -1,0 +1,14 @@
+.feature{
+    text-align: center;
+}
+
+.card{
+    margin-top: 20px;
+    margin: 10px auto;
+    background-color: none;
+    border: none !important;
+}
+
+.card-title{
+    font-weight: bold;
+}

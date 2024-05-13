@@ -1,0 +1,36 @@
+.hero_section_box button{
+    background:#0898e7;
+    border-radius: 10px;
+    color: white !important;  
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+
+   
+}
+
+.hero_section_box .btn{
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (max-width:576px){
+    .hero_section_box .btn{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero_section_box .btn{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:992px){
+    .hero_section_box .btn{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,50 @@
+.ui{
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ui_para{
+    text-align: center;
+}
+
+.content{
+   height: 100vh;
+   background-image: url("../../assets/presentation.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: repeat;
+}
+
+@media screen and (max-width:576px) {
+    .content{
+        height: 35vh;
+     
+     }   
+
+     .ui{
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .ui_para{
+        text-align: center;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content{
+        height: 45vh;
+     }   
+
+}
+
+@media screen and (max-width:992px) {
+    .content{
+        height: 45vh;
+     }   
+
+}

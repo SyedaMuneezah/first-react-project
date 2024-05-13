@@ -1,0 +1,63 @@
+.hero_section_content{
+    height: 768px;
+    background-image: url('../../assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ 
+}
+
+.hero_section_content .wrapper{
+    width: 50%;
+    margin-left: 8%;
+    
+}
+
+.hero_section_content .wrapper h1 i{
+    color: #0898e7;
+    font-style: normal;
+    font-weight: 550;
+}
+
+.hero_section_content .wrapper h1{
+    font-weight: 550;
+}
+
+.hero_section_content .wrapper button{
+    background:#0898e7;
+    border-radius: 10px;
+    color: white !important;  
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+@media screen and (max-width:992px){
+    .hero_section_content .wrapper{
+        width: 80%;  
+    }
+
+    .hero_section_content .wrapper h1{
+        font-size: 33px;
+    }
+
+    .hero_section_content .wrapper p{
+        line-height: 25px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .hero_section_content .wrapper .btn{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+.hero_section_content .wrapper .btn{
+    width: 100%;
+}
+}
